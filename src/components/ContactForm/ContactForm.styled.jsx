@@ -25,12 +25,9 @@ export const InputWrapper = styled.div`
     align-items: center;
     margin: 10px;
 `
-
 export const Label = styled.label`
   font-weight: bold;
 `
-
-
 export const Button = styled('button')`
   padding: ${props => props.theme.spacing(2)};
   background-color: ${props => props.theme.colors.secondBgColor};
